@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3088403-23c0-40a4-92f7-77c4b3cdc317" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/ConfigLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/TimeoutConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/ConfigKeys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/Timeout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/UrlPaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/ScreenshotUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/flows/InstallerFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InstallerLicenceAcceptancePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InstallerWelcomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config-local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config-staging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InstallerCompleteTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="3CZeGPg3yTlsnACNEiZPfQpMFt4" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.InstallerCompleteTest.executor": "Run",
+    "TestNG.InstallerLicenceAcceptancePageTest.doGoToNextStepFromLicenceAcceptance.executor": "Run",
+    "TestNG.InstallerLicenceAcceptancePageTest.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/AutomationProjects/orangehrm-demo-automation",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "database.data.views.appearance"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\AutomationProjects\orangehrm-demo-automation" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="config" />
+      <recent name="base" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.InstallerCompleteTest">
+    <configuration name="InstallerCompleteTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="orangehrm-demo-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="tests.InstallerCompleteTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InstallerCompleteTest.doGoToNextStepFromLicenceAcceptance" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="orangehrm-demo-automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="base" />
+      <option name="MAIN_CLASS_NAME" value="tests.InstallerCompleteTest" />
+      <option name="METHOD_NAME" value="doGoToNextStepFromLicenceAcceptance" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.InstallerCompleteTest" />
+        <item itemvalue="TestNG.InstallerCompleteTest.doGoToNextStepFromLicenceAcceptance" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3088403-23c0-40a4-92f7-77c4b3cdc317" name="Changes" comment="" />
+      <created>1776597423769</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1776597423769</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
