@@ -18,6 +18,9 @@ public class BaseTest {
         String browser = System.getProperty("browser","chrome");
         WebDriver driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
+        if(DriverManager.getDriver() == null){
+            throw new RuntimeException("DRIVER IS NULL");
+        }
         String url = ConfigLoader.get("baseUrl");
         driver.get(url);
         context.setAttribute("driver", driver);
