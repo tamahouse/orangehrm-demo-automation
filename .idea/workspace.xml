@@ -5,29 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3088403-23c0-40a4-92f7-77c4b3cdc317" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/base/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/ConfigLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/config/TimeoutConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/ConfigKeys.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/Timeout.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/constants/UrlPaths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/driver/DriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/driver/DriverManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/core/utils/ScreenshotUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flows/InstallerFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InstallerLicenceAcceptancePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/InstallerWelcomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config-local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config/config-staging.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/listeners/TestListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/InstallerCompleteTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
