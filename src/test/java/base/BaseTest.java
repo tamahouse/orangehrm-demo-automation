@@ -15,6 +15,9 @@ public class BaseTest {
 
     @BeforeMethod
     public void setUp(ITestContext context){
+        System.out.println("env=" + System.getProperty("env"));
+        System.out.println("browser=" + System.getProperty("browser"));
+        System.out.println("remoteUrl=" + System.getProperty("remoteUrl"));
         String browser = System.getProperty("browser","chrome");
         WebDriver driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
