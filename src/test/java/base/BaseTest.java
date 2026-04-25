@@ -13,23 +13,20 @@ import java.sql.Driver;
 public class BaseTest {
 
 
-    @BeforeMethod
-    public void setUp(ITestContext context){
+    @BeforeMethod(alwaysRun = true)
+    public void setUp(){
         System.out.println("env=" + System.getProperty("env"));
         System.out.println("browser=" + System.getProperty("browser"));
         System.out.println("remoteUrl=" + System.getProperty("remoteUrl"));
         String browser = System.getProperty("browser","chrome");
         WebDriver driver = DriverFactory.createDriver(browser);
         DriverManager.setDriver(driver);
-        if(DriverManager.getDriver() == null){
-            throw new RuntimeException("DRIVER IS NULL");
-        }
         String url = ConfigLoader.get("baseUrl");
         driver.get(url);
-        context.setAttribute("driver", driver);
+        System.out.println(">>> BEFORE METHOD RUN");
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         DriverManager.quit();
     }

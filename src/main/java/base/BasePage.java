@@ -16,8 +16,9 @@ public class BasePage {
     protected WebDriverWait wait;
 
     public BasePage (){
-            this.driver = DriverManager.getDriver();
-            this.wait = new WebDriverWait(driver,Duration.ofSeconds(TimeoutConfig.mediumTimeout()));
+        this.driver = DriverManager.getDriver();
+        this.wait = new WebDriverWait(driver,Duration.ofSeconds(TimeoutConfig.mediumTimeout()));
+        System.out.println(">>> BASE PAGE CONSTRUCTOR");
     }
 
     protected void click(By by){
